@@ -24,8 +24,7 @@
   function populate(scene) {
     const cubeGeometry = new THREE.BoxGeometry(10, 10, 10),
       cubeMaterial = new THREE.MeshLambertMaterial({
-        color: 0x5555ff,
-        map: new THREE.TextureLoader().load("media/img/gnu.png")
+        color: 0x5555ff
       }),
       ambLight = new THREE.AmbientLight(0xffffff, 0.25),
       ptLight = new THREE.PointLight(0xffffff, 1),
