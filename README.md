@@ -9,6 +9,8 @@ Build a VR application for mobile and desktop devices, using:
  - Polyfills for devices that do not support WebVR yet
  - Cordova to deploy the webview as an app
 
+Check out the [demo](https://zedr.github.io/cordova_vr/www/)!
+
 Based on https://github.com/borismus/webvr-boilerplate
 
 ## TODO
